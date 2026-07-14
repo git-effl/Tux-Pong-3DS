@@ -1,4 +1,4 @@
-name: Wii U Nightly Build
+name: Wii U Build
 
 on:
   push:
@@ -48,5 +48,5 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@v4
         with:
-          name: Tux Pong!
+          name: Tux Pong
           path: tuxpong.zip
