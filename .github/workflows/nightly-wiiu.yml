@@ -47,4 +47,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Tux Pong
-          path: tuxpong.zip
+          path: docs/tuxpong.zip
