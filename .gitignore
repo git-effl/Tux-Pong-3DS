@@ -5,7 +5,6 @@
 out/
 build/
 build-*/
-romfs/
 scratch-everywhere/
 
 # CMake
