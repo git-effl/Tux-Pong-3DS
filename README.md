@@ -36,5 +36,5 @@ Original Authors: <a href="https://github.com/NateXS">NateXS</a> and Dogo2009,ak
 Nate Pong is licensed under the MIT license,see LICENSE-MIT for more details.
 
 Engine: Based on <a href="https://github.com/ScratchEverywhere/ScratchEverywhere">Scratch Everywhere!</a>.
-Scratch Everywhere is licensed under the LGPL,see LICENSE-LGPL for more details.
+Scratch Everywhere is licensed under the LGPL,see LICENSE for more details.
 
