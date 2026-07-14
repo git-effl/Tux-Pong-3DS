@@ -51,5 +51,5 @@ jobs:
         with:
           name: Tux Pong
           path: |
-            tuxpong.3dsx
-            tuxpong.cia
+            romfs/tuxpong.3dsx
+            romfs/tuxpong.cia
