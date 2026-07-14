@@ -1,4 +1,4 @@
-name: 3DS Nightly Build
+name: 3DS Build
 
 on:
   push:
