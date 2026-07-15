@@ -50,6 +50,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Tux Pong
-          path: |
-            build/tuxpong.3dsx
-            build/tuxpong.cia
+          path:  |
+            scratch-3ds.3dsx
+            scratch-3ds.cia

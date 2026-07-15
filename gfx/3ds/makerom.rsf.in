@@ -1,6 +1,6 @@
 BasicInfo:
-  Title                   : Scratch-3ds
-  ProductCode             : Scratch3DS
+  Title                   : Tux-Pong
+  ProductCode             : TuxPong3DS
   Logo                    : Homebrew # Nintendo / Licensed / Distributed / iQue / iQueForSystem
 
 RomFs:

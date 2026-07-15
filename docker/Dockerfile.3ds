@@ -23,6 +23,9 @@ COPY . .
 # Build .3dsx and .cia for default TARGET (Scratch)
 RUN /opt/devkitpro/portlibs/3ds/bin/arm-none-eabi-cmake -B build-3ds -DCMAKE_BUILD_TYPE=Release -DSE_MAKEROM=/makerom/makerom -DSE_BANNERTOOL=/bannertool/build/bannertool && cmake --build build-3ds -j2
 
+# This will print the location of all .3dsx and .cia files in the logs
+RUN find . -name "*.3dsx" -o -name "*.cia"
+
 FROM scratch AS exporter
-COPY --from=main_builder /project/build-3ds/tuxpong.3dsx /
-COPY --from=main_builder /project/build-3ds/tuxpong.cia /
+COPY --from=main_builder /app/build-3ds/scratch-3ds.3dsx /scratch-3ds.3dsx
+COPY --from=main_builder /app/build-3ds/scratch-3ds.cia /scratch-3ds.cia
