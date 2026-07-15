@@ -3,8 +3,6 @@
 .vs/
 .vscode/
 out/
-build/
-build-*/
 scratch-everywhere/
 
 # CMake
