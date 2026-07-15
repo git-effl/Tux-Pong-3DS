@@ -1,4 +1,4 @@
-Tux Pong
+# Tux Pong!
 
 Description:
 
