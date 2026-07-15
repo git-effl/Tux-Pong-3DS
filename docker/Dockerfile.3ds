@@ -27,5 +27,5 @@ RUN /opt/devkitpro/portlibs/3ds/bin/arm-none-eabi-cmake -B build-3ds -DCMAKE_BUI
 RUN find . -name "*.3dsx" -o -name "*.cia"
 
 FROM scratch AS exporter
-COPY --from=main_builder /app/build-3ds/scratch-3ds.3dsx /
-COPY --from=main_builder /app/build-3ds/scratch-3ds.cia /
+COPY --from=main_builder /app/build-3ds/scratch-3ds.3dsx /docs/scratch-3ds.3dsx
+COPY --from=main_builder /app/build-3ds/scratch-3ds.cia /docs/scratch-3ds.cia
