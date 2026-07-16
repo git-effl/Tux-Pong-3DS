@@ -4,5 +4,7 @@ COPY . .
 
 RUN sudo -E /opt/devkitpro/portlibs/wiiu/bin/powerpc-eabi-cmake -B build-wiiu -DCMAKE_BUILD_TYPE=Release && sudo -E cmake --build build-wiiu -j2 && sudo -E cmake --build build-wiiu --target package_wiiu
 
+RUN echo "DEBUG: Searching for build output..." && find /app -name "*.zip"
+
 FROM scratch AS exporter
 COPY --from=main_builder /app/build-wiiu/scratch-wiiu.zip /

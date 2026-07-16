@@ -31,7 +31,7 @@ include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/CPM.cmake")
 set(SE_APP_NAME "Tux Pong" CACHE STRING "Name of the outputed app.")
 set(SE_APP_DESCRIPTION "Tux Pong" CACHE STRING "Description of the outputed app.")
 set(SE_APP_AUTHOR "effL" CACHE STRING "Author of the outputed app.")
-set(SE_APP_VERSION "1.0-rc3" CACHE STRING "Version of the outputed app.")
+set(SE_APP_VERSION "1.0" CACHE STRING "Version of the outputed app.")
 
 if(VITA)
 	set(SE_APP_TITLEID "NTXS00053" CACHE STRING "Title ID of the outputed app.")
