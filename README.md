@@ -19,6 +19,7 @@ Konqi said:
 so they went to the nearest Ping Pong table in the park...
 
 Installation:
+
 Download the latest .cia/.3dsx file from the Releases.
 
 For .3dsx files,just put it in your 3ds folder on your 3DS SD Card,then launch it with the Homebrew Launcher.
@@ -27,6 +28,7 @@ For .cia files,just put it on your cias folder on your 3DS SD Card,then installi
 then a package should appear in your home menu after installing,open it! Then launch the Tux Pong game.
 
 Credits & Licensing:
+
 This project relies on:
 
 <a href="https://scratchbox.dev/project/WDvpKgyogs2S">Nate Pong: Scratch Edition</a>,a port of <a href="https://github.com/NateXS/Pong">Nate Pong</a>  in Scratch.
