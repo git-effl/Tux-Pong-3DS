@@ -38,6 +38,7 @@ jobs:
       - name: Build and Export
         uses: docker/build-push-action@v5
         with:
+         buildkitd-flags: --debug
           context: .
           file: docker/Dockerfile.wiiu
           target: exporter
