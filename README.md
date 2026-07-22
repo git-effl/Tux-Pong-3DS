@@ -18,7 +18,7 @@ Konqi said:
 "Really Tux? Come here,i wanna see if you're really great at Ping Pong!"
 so they went to the nearest Ping Pong table in the park...
 
-Installation:
+3DS Installation:
 
 Download the latest .cia/.3dsx file from the Releases.
 
@@ -26,6 +26,25 @@ For .3dsx files,just put it in your 3ds folder on your 3DS SD Card,then launch i
 
 For .cia files,just put it on your cias folder on your 3DS SD Card,then installit via FBI,or your preferred CIA installer,
 then a package should appear in your home menu after installing,open it! Then launch the Tux Pong game.
+
+PS2 Installation:
+
+Download the latest .elf file from the Releases.
+
+Put the .elf file on your desired USB stick,then put it on your PS2,
+
+Boot the game via ULaunchELF on FreeDVDBoot or FreeMCBoot.
+
+Wii U Installation:
+
+Install the latest .zip file from the Releases.
+
+Extract the .zip file.
+
+Inside the extracted .zip file there will be another folder,put it on your SD Card at wiiu/apps
+
+Then launch Tux Pong! from the Wii U menu (Aroma)
+Or launch Tux Pong! from the Homebrew Launcher (Tiramisu,Mocha,Hakchi,etc.)
 
 Credits & Licensing:
 
